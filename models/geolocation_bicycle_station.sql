@@ -11,7 +11,7 @@ SELECT
       '{{ var("integration_id") }}' ||
       "{{ var("table_prefix") }}_stations"."id_osm" ||
       'bicycle_station' ||
-      'gouv'
+      'bicycle_station_fr'
     )  as id,
     'gouv' as source,
     '{{ var("integration_id") }}'::uuid  as integration_id,
