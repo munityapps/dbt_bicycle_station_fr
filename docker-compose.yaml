@@ -9,7 +9,7 @@ services:
         # command: "debug"
         # command: "run --var='{\"integration_id\": \"dc24aa96-7a1f-4abb-b1cc-992848ad5971\", \"workspace_id\": \"1203531897608619\"}'"
         command: "
-          run --vars='{\"table_prefix\":\"_51f664a1\",\"timestamp\":\"1690235586.342085\",\"workspace_id\":\"1af2fb2d-7b86-4aba-9535-b99a8bc2d68f\",\"integration_id\":\"51f664a1-cd5d-4fbc-9065-74cf105c91ae\"}'
+          run --vars='{\"table_prefix\":\"_0f331644\",\"timestamp\":\"1695849252.4321449\",\"workspace_id\":\"None\",\"integration_id\":\"0f331644-11a7-42a3-a1d2-5afc69e39840\"}'
           "
         networks:
             default:

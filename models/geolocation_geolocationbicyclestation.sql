@@ -20,7 +20,7 @@ SELECT
     '{{ var("timestamp") }}' as sync_timestamp,
     code_com as zipcode,
     acces as access,
-    lumiere as ligthed,
+    lumiere as light,
     protection as protection,
     type_accroche as fixation,
     proprietaire as owner,
@@ -34,7 +34,7 @@ SELECT
     commentaires as comments,
     surveillance as monitoring,
     couverture as connected,
-    capacite_cargo as coargo_capacity
+    capacite_cargo as cargo_capacity
 FROM "{{ var("table_prefix") }}_stations"
 LEFT JOIN _airbyte_raw_{{ var("table_prefix") }}_stations
 ON _airbyte_raw_{{ var("table_prefix") }}_stations._airbyte_ab_id = "{{ var("table_prefix") }}_stations"._airbyte_ab_id
